@@ -1,11 +1,11 @@
 ---
-Type: 
+Type: topic
 tags: 
-Data: {{date}}
+Data: 2024-02-10
 ---
-
+Веб сервер AZS буде написаний на C++ crow
 #### links
-
+[[AZS]]
 ## Facts
 ```dataview
 LIST FROM ""
