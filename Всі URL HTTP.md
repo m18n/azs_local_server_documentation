@@ -15,7 +15,7 @@ Data: 2024-02-10
 ## Main
 1. **/main** #get - це головна сторінка де виводяться всі колонки видається файл **serv.html**
 2. **/main/settings** #get - це сторінка сервіси видається файл **settings_azs.html**
-3. **/main/settings/configuration** #get - це сторінка з налаштуванням видів палива, резеруарів, колонки.
+3. **/main/settings/configuration** #get - це сторінка з налаштуванням видів палива, резеруарів, колонки. повертає файл **configuration.html**
 ## API
 1. **/api/pump/save** #post - це сторінка для зберігання колонок
 2. **/api/out** #get - це для очищення cookie тобто входу.
