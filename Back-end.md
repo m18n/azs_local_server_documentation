@@ -7,17 +7,17 @@ Data: 2024-02-10
 Всі url можна подивитись тут [[Всі URL HTTP]]
 #### links
 [[Веб сервер AZS]], [[AZS]]
-## Facts
-```dataview
-LIST FROM ""
-WHERE contains(file.outlinks, this.file.link)
-AND contains(Type, "fact")
-```
 ## Topics
 ```dataview
 LIST FROM ""
 WHERE contains(file.outlinks, this.file.link)
 AND contains(Type, "topic")
+```
+## Facts
+```dataview
+LIST FROM ""
+WHERE contains(file.outlinks, this.file.link)
+AND contains(Type, "fact")
 ```
 ## Questions
 ```dataview

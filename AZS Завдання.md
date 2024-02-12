@@ -6,17 +6,17 @@ Data: 2024-02-11
 - [ ] Заповнити список до кінця [[Всі URL HTTP]] ➕ 2024-02-11
 #### links
 
-## Facts
-```dataview
-LIST FROM ""
-WHERE contains(file.outlinks, this.file.link)
-AND contains(Type, "fact")
-```
 ## Topics
 ```dataview
 LIST FROM ""
 WHERE contains(file.outlinks, this.file.link)
 AND contains(Type, "topic")
+```
+## Facts
+```dataview
+LIST FROM ""
+WHERE contains(file.outlinks, this.file.link)
+AND contains(Type, "fact")
 ```
 ## Questions
 ```dataview
