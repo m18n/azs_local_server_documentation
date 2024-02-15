@@ -1,11 +1,14 @@
 ---
-Type: task
+Type: fact
 tags: 
-Data: 2024-02-11
+Data: 2024-02-15
 ---
-- [x] Заповнити список до кінця [[Всі URL HTTP]] ➕ 2024-02-11 ✅ 2024-02-12
-#### links
+## Тут буде описано який буде повертатись json ([[API Отримати данні для конфігурації AZS]])
 
+
+
+#### links
+[[Веб сервер AZS]] [[База даних AZS]] [[Back-end]] [[Front-End]] [[Всі URL HTTP]]
 ## Topics
 ```dataview
 LIST FROM ""

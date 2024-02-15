@@ -6,7 +6,7 @@ Data: 2024-02-10
 Все тут про back-end, crow c++
 Всі url можна подивитись тут [[Всі URL HTTP]]
 #### links
-[[Веб сервер AZS]], [[AZS]]
+[[Веб сервер AZS]] [[AZS]]
 ## Topics
 ```dataview
 LIST FROM ""

@@ -21,7 +21,6 @@ Data: 2024-02-10
 2. **/api/out** #get - це для очищення cookie тобто входу
 3. **/api/outshift/** #get - закриття зміни
 4. **/api/settings/get** #get - отримати данні для сторінки [[Сторінка Налаштування]]
-
 #### links
 [[Back-end]]
 ## Topics
