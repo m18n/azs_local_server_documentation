@@ -5,24 +5,24 @@ Data: 2024-02-10
 ---
 Тут написані всі посилання back-end
 ## System
-1. **/public/(path)** #get path це шлях до любого файлу в папці azs_site
-2. **/settings/dberror** #get  це сторінка налаштування бази даних при відсутності підключення до неї. Видає файл **settings_db_error.html**. Це [[Сторінка База Даних]]
-3. **/settings/dberror/send** #post  це сторінка для відправки даних на підключення якщо дані записались то відправляється у відповідь {"status": "yes"} якщо ні то {"status":"no"}
-4. **/settings/dberror/check** #post - це сторінка для отримання інформації про підключення. На нього потрібно робити постійні запити при підключенні до бази щоб знати  статус. він повертає такі статуси {"status": "process"} {"status": "connect"} {"status": "disconnect"} по назвам я думаю все зрозуміло.
+1. **/public/(path)** #get  [[BACK_C Отримати public файли]]
+2. **/settings/dberror** #get  **~** [[PAGE База Даних]]  **~** [[BACK_С База Даних PAGE]]
+3. **/settings/dberror/send** #post   [[BACK_C Зміна даних підключення до БД]]
+4. **/settings/dberror/check** #post -  [[BACK_C Статус підключення до бази даних]]
 ## Auth
-1. **/** #get це шлях до авторизації файл **login.html**
-2. **/auth** #post  це сторінка для підтвердження авторизації та отримання вдалості. якщо вхід вдалий то повертається в json {"status": "yes"} якщо ні то {"status":"no"}
+1. **/** #get **~** [[PAGE Авторизація]] **~** [[BACK_С Авторизація PAGE]]
+2. **/auth** #post **~**[[BACK_C Підтвердження авторизації]]
 ## Main
-1. **/main** #get - це головна сторінка де виводяться всі колонки видається файл **serv.html**
-2. **/main/settings** #get - це сторінка сервіси видається файл **settings_azs.html**. Це [[Сторінка Сервіси]]
-3. **/main/settings/configuration** #get - це сторінка з налаштуванням видів палива, резервуарів, колонки. повертає файл **configuration.html**. Це [[Сторінка Налаштування]]
+1. **/main** #get **~**[[PAGE Головна]]**~** [[BACK_С Головна PAGE]]
+2. **/main/settings** #get **~**[[PAGE Сервіси]] **~** [[BACK_С Сервіси PAGE]]
+3. **/main/settings/configuration** #get **~** [[PAGE Налаштування]] **~** [[BACK_С Налаштування PAGE]]
 ## API
-1. **/api/pump/save** #post - це сторінка для зберігання колонок
-2. **/api/out** #get - це для очищення cookie тобто входу
-3. **/api/outshift/** #get - закриття зміни
-4. **/api/settings/get** #get - отримати данні для сторінки [[Сторінка Налаштування]]
+1. **/api/pump/save** #post **~** [[API Зберігання положення TRK]]
+2. **/api/out** #get **~** [[API Вихід з Акаунту]] 
+3. **/api/outshift/** #get **~** [[API Закриття зміни]]
+4. **/api/settings/get** #get  **~** [[API Отримати данні для конфігурації AZS]] 
 #### links
-[[Back-end]]
+[[Back-end]], [[Веб сервер AZS]]
 ## Topics
 ```dataview
 LIST FROM ""
