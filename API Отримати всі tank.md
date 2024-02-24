@@ -2,13 +2,11 @@
 Type: fact
 tags:
   - get
-Data: 2024-02-21
+Data: 2024-02-24
 ---
-Повертає файл **configuration.html**
-Для отримання даних про [[Вид палива tovar]], [[Резервуар tank]], [[Колонка trk]], [[Каса]] буде створені api([[Всі API]])
-
+Цей api буде видавати в json об'єкти [[Резервуар tank]]
 #### links
-[[Всі BACK_С контролери]]
+[[Всі API]]
 ## Topics
 ```dataview
 LIST FROM ""

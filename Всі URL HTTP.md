@@ -21,6 +21,10 @@ Data: 2024-02-10
 2. **/api/out** #get **~** [[API Вихід з Акаунту]] 
 3. **/api/outshift/** #get **~** [[API Закриття зміни]]
 4. **/api/settings/get** #get  **~** [[API Отримати данні для конфігурації AZS]] 
+5. **/api/settings/tanks/get** #get ~ [[API Отримати всі tank]]
+6. **/api/settings/tovars/get** #get ~ [[API Отримати всі tovar]]
+7. **/api/settings/trks/get** #get ~  [[API Отримати всі trk]]
+8. **/api/settings/kasa/get** #get ~  [[API Отримати kasa]]
 #### links
 [[Back-end]], [[Веб сервер AZS]]
 ## Topics
