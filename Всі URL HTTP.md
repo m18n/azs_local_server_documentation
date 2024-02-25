@@ -25,6 +25,11 @@ Data: 2024-02-10
 6. **/api/settings/tovars/get** #get ~ [[API Отримати всі tovar]]
 7. **/api/settings/trks/get** #get ~  [[API Отримати всі trk]]
 8. **/api/settings/kasa/get** #get ~  [[API Отримати kasa]]
+9.  **/api/settings/set** #post ~ [[API Записати данні конфігурації AZS]]
+10. **/api/settings/tanks/set** #post ~ [[API Записати всі tank]]
+11. **/api/settings/tovars/set** #post ~[[API Записати всі tovars]]
+12. **/api/settings/trks/set** #post ~[[API Записати всі trks]]
+13. **/api/settings/kasa/set** #post ~[[API Записати kasa]]
 #### links
 [[Back-end]], [[Веб сервер AZS]]
 ## Topics
